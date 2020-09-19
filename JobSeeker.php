@@ -35,7 +35,7 @@ include "menu.php"
 
             <!-- Article -->
             <div class="article">
-                <h2><span><a href="#">Job Seeker</a></span></h2>
+                <h1><span><a href="#"><i>Job Seeker</i></a></span></h1>
                <div class="login">
                 <form name="form1" method="post" action="sender.php">
                   <table width="100%" >

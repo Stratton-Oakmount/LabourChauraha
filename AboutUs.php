@@ -36,7 +36,7 @@ include "menu.php"
 
             <!-- Article -->
             <div class="article">
-               <h1><span><a href="#">About Us</a></span></h1>
+               <h1><span><a href="#"><i>About Us</i></a></span></h1>
                
 
                 <p align="justify"><font face="serif" size="3" font color="#00000">Indian migrant workers during the COVID-19 pandemic have faced multiple hardships. With factories and workplaces shut down due to the lockdown imposed in the country, millions of migrant workers had to deal with the loss of income, food shortages and uncertainty about their future. Following this, many of them and their families went hungry. Thousands of them then began walking back home, with no means of transport due to the lockdown.</p>
