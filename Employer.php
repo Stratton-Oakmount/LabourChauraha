@@ -26,6 +26,8 @@
 </head>
 
 <body >
+
+<div style="background-image: url('design/blend.jpg');">
 <!-- Main -->
 <div id="main" class="box">
 <img src="design/imgh.jpeg" alt="" width="770" height="150" />
@@ -91,7 +93,26 @@ include "menu.php"
                           </div>
                       </label></td>
                     </tr>
+					
+					 <tr>
+					 </tr>
+					
                   </table>
+				   <tr>
+					  <br>
+					 </tr>  <tr>
+					  <br>
+					 </tr>  <tr>
+					  <br>
+					 </tr>  <tr>
+					 <br>
+					 </tr> <tr>
+					 <br><tr>
+					 <br>
+					 </tr> 
+					 </tr> <tr>
+					 <br>
+					 </tr> 
       </form>
               </div>
                 <br/>
@@ -101,3 +122,6 @@ include "menu.php"
 
 </div> <!-- /main -->
 
+
+</body>
+</html>

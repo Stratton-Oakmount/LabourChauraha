@@ -21,6 +21,7 @@
 
 <body >
 
+<div style="background-image: url('design/blend.jpg');">
 <!-- Main -->
 <div id="main" class="box">
 
