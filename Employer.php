@@ -22,7 +22,7 @@
 <body >
 <div style="background-image: url('design/blend.jpg'); background-repeat: no-repeat;
   background-position: top;
-  margin-right: 0px;"><!-- Main -->
+  margin-right: 0px;>"margine-up: 0px;>"<!-- Main -->
 <div id="main" class="box">
 <img src="design/imgh.jpeg" alt="" width="770" height="180" />
 <?php 
