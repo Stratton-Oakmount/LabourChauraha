@@ -15,20 +15,14 @@
     <link rel="stylesheet" media="print" type="text/css" href="./css/print.css" />
     <link rel="stylesheet" media="aural" type="text/css" href="./css/aural.css" />
     <style type="text/css">
-<!--
-.style1 {
-	color: #000066;
-	font-weight: bold;
-}
-.style2 {font-weight: bold}
--->
+
     </style>
 </head>
 
 <body >
-
-<div style="background-image: url('design/blend.jpg');">
-<!-- Main -->
+<div style="background-image: url('design/blend.jpg'); background-repeat: no-repeat;
+  background-position: top;
+  margin-right: 0px;"><!-- Main -->
 <div id="main" class="box">
 <img src="design/imgh.jpeg" alt="" width="770" height="150" />
 <?php 
