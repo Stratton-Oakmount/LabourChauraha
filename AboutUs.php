@@ -24,7 +24,7 @@
 <div style="background-image: url('design/blend.jpg'); background-repeat: no-repeat;
   background-position: top;
   margin-right: 0px;"><div id="main" class="box">
-<img src="design/imgh.jpeg" alt="" width="770" height="150" />
+<img src="design/imgh.jpeg" alt="" width="770" height="180" />
 <?php 
 include "menu.php"
 ?>   

@@ -26,7 +26,7 @@
   
 <div id="main" class="box">
 
-<img src="design/imgh.jpeg" alt="" width="770" height="150" />
+<img src="design/imgh.jpeg" alt="" width="770" height="180" />
 
 <?php 
 include "menu.php"
