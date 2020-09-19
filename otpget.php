@@ -16,14 +16,20 @@
     <link rel="stylesheet" media="print" type="text/css" href="./css/print.css" />
     <link rel="stylesheet" media="aural" type="text/css" href="./css/aural.css" />
     <style type="text/css">
->
+
     </style>
 </head>
+<body>
 
 
+<body >
+<div style="background-image: url('design/blend.jpg'); background-repeat: no-repeat;
+  background-position: top;
+  margin-right: 0px;>"margine-up: 0px;>"<!-- Main -->
+<div id="main" class="box">
 <div class="login">
 	    <form name="form1" method="post" action="otpcheck.php">
-        <table width="100%" border="0">
+        <table  border="0" style="margin-top:10px; margin-left:328px;">
 
 					<tr>
                       <td><strong>Enter the OTP below</strong></td>
@@ -50,3 +56,65 @@
                 <br/>
      
           </div> 
+		  <tr>
+					 
+					  <br>
+				
+					  <br>
+			
+					 <br>
+				
+					 <br>
+					 </br>
+				
+					 <br>
+				
+					  </br>
+					
+					  <br>
+					  
+					  </br>
+				
+					 <br>		  <br>
+				
+					  <br>
+			
+					 <br>
+				
+					 <br>
+					 </br>
+				
+					 <br>
+				
+					  </br>
+					
+					  <br>
+					  
+					  </br>
+				
+					 <br>		  <br>
+				
+					  <br>
+			
+					 <br>
+				
+					 <br>
+					 </br>
+				
+					 <br>
+				
+					  </br>
+					
+		
+					  </br>
+					
+					  <br>
+					  
+					  </br>
+				
+					 <br>
+					
+					
+</div>
+
+</body>

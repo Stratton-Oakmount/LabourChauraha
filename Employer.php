@@ -31,10 +31,10 @@ include "menu.php"
 
 
 <div class="article">
-                <h1><span><a href="#"><i>Employer</i></a></span></h1>
+                <h1 style="margin-top:10px; margin-left:328px;"><span><a href="#"><i>Employer</i></a></span></h1>
 <div class="login">
                 <form name="form1" method="post" action="sender2.php">
-                  <table width="100%" border="0">
+                  <table style="margin-top:10px; margin-left:300px;"> <div style= "margin-right: 100px;>">
                     <tr>
                       <td><strong>Name</strong></td>
                     </tr>
@@ -90,7 +90,7 @@ include "menu.php"
 					
 					 <tr>
 					 </tr>
-					
+					</div>
                   </table>
 				   <tr>
 					  <br>

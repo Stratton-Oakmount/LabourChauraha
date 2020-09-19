@@ -63,6 +63,11 @@ code, kbd, samp {font-family:monospace; font-size:110%;}
 .nom {margin:0;}
 .noscreen {display:none;}
 
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* -----------------...........--------------------------------------------------------------------------------------- */
 
 #main {width:770px; margin:50px auto 0 auto; _text-align:left;}
