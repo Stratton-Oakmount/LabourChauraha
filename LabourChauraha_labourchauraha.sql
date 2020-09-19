@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 20, 2020 at 12:14 AM
+-- Generation Time: Sep 20, 2020 at 01:51 AM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.10
 
@@ -88,4 +88,10 @@ ALTER TABLE `employer`
 --
 ALTER TABLE `labourers`
   ADD PRIMARY KEY (`aadhar`),
+  ADD UNIQUE KEY `aadhar` (`aadhar`);
+
+--
+-- Indexes for table `selected`
+--
+ALTER TABLE `selected`
   ADD UNIQUE KEY `aadhar` (`aadhar`);

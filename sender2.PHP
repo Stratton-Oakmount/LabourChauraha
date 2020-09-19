@@ -1,11 +1,10 @@
 <?xml version="1.0"?>
-
 <html >
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta http-equiv="content-language" content="cs" />
     <meta name="robots" content="all,follow" />
-   
+    
     <title>LabourChauraha</title>
     <meta name="description" content="..." />
     <meta name="keywords" content="..." />
@@ -19,20 +18,19 @@
     </style>
 </head>
 <body>
+
+
+<body >
 <div style="background-image: url('design/blend.jpg'); background-repeat: no-repeat;
   background-position: top;
   margin-right: 0px;>"margine-up: 0px;>"<!-- Main -->
-<div id="main" class="box">
+
 
 <?php
 $varname=$_POST['varname'];
 $varaadhar=$_POST['varaadhar'];
 $varlocation=$_POST['varlocation'];
 $varphone=$_POST['varphone'];
-$varsdate=$_POST['varsdate'];
-$varedate=$_POST['varedate'];
-$varskills=$_POST['varskills'];
-$varmoney=$_POST['varmoney'];
 
 
 session_start();
@@ -43,11 +41,6 @@ $_SESSION['varname']=$varname;
 $_SESSION['varaadhar']=$varaadhar;
 $_SESSION['varlocation']=$varlocation;
 $_SESSION['varphone']=$varphone;
-$_SESSION['varsdate']=$varsdate;
-$_SESSION['varedate']=$varedate;
-$_SESSION['varskills']=$varskills;
-$_SESSION['varmoney']=$varmoney;
-
 
 $field = array(
     "sender_id" => "FSTSMS",
@@ -89,8 +82,5 @@ curl_close($curl);
 ?>
 
 <?php 
-include "otpget.php"
+include "otpget2.php"
 ?>
-
-</div>
-</body>
