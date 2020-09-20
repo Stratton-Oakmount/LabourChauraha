@@ -15,9 +15,9 @@
 		$email = $_POST['email'];
 		$password = $_POST['password'];
 		
-		$sql = "SELECT * FROM labourers where phone = '$password' ";
+		$sql = "SELECT * FROM labourers where phone = '$password' and name ='$email' ";
 		$query =  mysqli_query($conn, $sql);
-		$sqr = "SELECT * FROM employer where phone = '$password' ";
+		$sqr = "SELECT * FROM employer where phone = '$password' and name ='$email'";
 		$query2 =  mysqli_query($conn, $sqr);
 
 $aa=mysqli_num_rows($query);
