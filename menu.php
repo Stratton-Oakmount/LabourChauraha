@@ -7,7 +7,7 @@
                 <li><a href="AboutUs.php">About Us<span class="tab-l"></span><span class="tab-r"></span></a></li>
                 <li><a href="Employer.php">Employer<span class="tab-l"></span><span class="tab-r"></span></a></li>
                  <li><a href="JobSeeker.php">Job Seeker<span class="tab-l"></span><span class="tab-r"></span></a></li>
-                  
+                 <li><a href="chat.php">Chat<span class="tab-l"></span><span class="tab-r"></span></a></li> 
             </ul>
 
         <hr class="noscreen" />
