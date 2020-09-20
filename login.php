@@ -19,12 +19,14 @@
 		$query =  mysqli_query($conn, $sql);
 		$sqr = "SELECT * FROM employer where phone = '$password' and name ='$email'";
 		$query2 =  mysqli_query($conn, $sqr);
+$sqt = "SELECT * FROM selected where phone = '$password' and name ='$email'";
+		$query3 =  mysqli_query($conn, $sqt);
 
 $aa=mysqli_num_rows($query);
 $bb=mysqli_num_rows($query2);
+$cc=mysqli_num_rows($query3);
 
-
-		if($aa>0 || $bb >0 )
+		if($aa>0 || $bb >0 || $cc>0)
 		{
 			$row = mysqli_fetch_assoc($query);
 			echo $row;
